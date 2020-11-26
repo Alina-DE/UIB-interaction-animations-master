@@ -18,14 +18,8 @@ div {
 
 .strobe_1 {
   background-color: yellow;
-  /* animation: first 2s infinite alternate-reverse; */
   animation: strobe_1 2s infinite alternate-reverse paused;
-
 }
-
-/* .strobe_1:hover {
-  animation-name: strobe_1;
-} */
 
 .strobe_1:hover {
   animation-play-state: running;
